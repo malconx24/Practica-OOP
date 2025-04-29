@@ -36,7 +36,7 @@ namespace Practica_OOP
             return edad;
         }
         // Método para mostrar la información
-        public void MostrarInformacion()
+        public virtual void MostrarInformacion()
         {
             Console.WriteLine("Nombre: " + Nombre);
             Console.WriteLine("Ciudad: " + Ciudad);

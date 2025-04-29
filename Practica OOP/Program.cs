@@ -10,11 +10,15 @@ namespace Practica_OOP
     {
         static void Main(string[] args)
         {
-            // Crear una persona
-            Persona persona1 = new Persona("Juan", new DateTime(1990, 6, 24), "Santo Domingo");
+            Estudiante estudiante = new Estudiante(
+                "Juan Manuel",
+                new DateTime(1990, 6, 23),
+                "Santo Domingo Norte",
+                "Informatica",
+                "ID100065890"
+            );
 
-            // Mostrar su información
-            persona1.MostrarInformacion();
+            estudiante.MostrarInformacion();
         }
     }
 }
